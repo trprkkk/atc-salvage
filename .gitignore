@@ -1,0 +1,9 @@
+build/
+bin/
+__pycache__/
+*.pyc
+# Never commit real archives or recovered data.
+*.atc
+!tests/data/*.atc.tester
+body.bin
+manifest.json
